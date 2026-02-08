@@ -153,7 +153,7 @@ else:
     st.stop()
 
 # Room Type filter (single select)
-room_type_options = ['2-room Flexi', '3-room', '3Gen', '4-room', '5-room']
+room_type_options = ['2-room Flexi', '3-room', '3Gen', '4-room', '5-room', 'Executive']
 selected_room_type = st.sidebar.selectbox(
     "Room Type",
     options=room_type_options,
@@ -173,35 +173,38 @@ st.sidebar.divider()
 # Get filtered estate data
 if selected_estate in estates_data:
     estate_df = estates_data[selected_estate].copy()
-    
+
     # Filter projects that have the selected room type
-    estate_df_filtered = estate_df[estate_df[selected_room_type] > 0].copy()
-    
-    # Calculate filtered units from project data
-    def get_filtered_unit_count(project_name, room_type, ethnicity):
-        """Get unit count for a project filtered by room type and ethnicity"""
-        if project_name not in projects_data:
-            return 0
+    if selected_room_type in estate_df.columns:
+        estate_df_filtered = estate_df[estate_df[selected_room_type] > 0].copy()
         
-        project_df = projects_data[project_name]
-        filtered = project_df[
-            (project_df['flat_type'] == room_type) & 
-            (project_df['ethnicity'] == ethnicity)
-        ]
+        # Calculate filtered units from project data
+        def get_filtered_unit_count(project_name, room_type, ethnicity):
+            """Get unit count for a project filtered by room type and ethnicity"""
+            if project_name not in projects_data:
+                return 0
+            
+            project_df = projects_data[project_name]
+            filtered = project_df[
+                (project_df['flat_type'] == room_type) & 
+                (project_df['ethnicity'] == ethnicity)
+            ]
+            
+            total = 0
+            for floor_data in filtered['floor_data']:
+                total += get_total_units_from_floor_data(floor_data)
+            
+            return total
         
-        total = 0
-        for floor_data in filtered['floor_data']:
-            total += get_total_units_from_floor_data(floor_data)
+        # Add filtered unit counts
+        estate_df_filtered['Filtered_Units'] = estate_df_filtered['Project Name'].apply(
+            lambda x: get_filtered_unit_count(x, selected_room_type, selected_ethnicity)
+        )
         
-        return total
-    
-    # Add filtered unit counts
-    estate_df_filtered['Filtered_Units'] = estate_df_filtered['Project Name'].apply(
-        lambda x: get_filtered_unit_count(x, selected_room_type, selected_ethnicity)
-    )
-    
-    # Remove projects with 0 filtered units
-    estate_df_filtered = estate_df_filtered[estate_df_filtered['Filtered_Units'] > 0]
+        # Remove projects with 0 filtered units
+        estate_df_filtered = estate_df_filtered[estate_df_filtered['Filtered_Units'] > 0]
+    else:
+        estate_df_filtered = pd.DataFrame(columns=estate_df.columns.tolist() + ['Filtered_Units'])
     
 else:
     st.error(f"Estate '{selected_estate}' data not found.")
@@ -428,13 +431,13 @@ with tab3:
                 
                 # MRT and walking information
                 if 'Nearest_MRT' in row and pd.notna(row['Nearest_MRT']):
-                    st.markdown(f"**🚇 Nearest MRT:** {row['Nearest_MRT']} ({row.get('MRT_Station_Code', 'N/A')})")
+                    st.markdown(f"**🚇 Nearest MRT Station:** {row['Nearest_MRT']} ({row.get('MRT_Station_Code', 'N/A')})")
                     if 'bus_duration_min' in row and pd.notna(row['bus_duration_min']):
-                        st.markdown(f"**⏱️ Bus Duration:** {row['bus_duration_min']:.0f} min")
+                        st.markdown(f"**⏱️ Bus Duration to Nearest MRT:** {row['bus_duration_min']:.0f} min")
                     # if 'MRT_Distance_m' in row and pd.notna(row['MRT_Distance_m']):
                     #     st.markdown(f"**📏 MRT Distance:** {row['MRT_Distance_m']:.0f}m")
                     if 'Walk_Distance_m' in row and pd.notna(row['Walk_Distance_m']):
-                        st.markdown(f"**🚶 Walking Distance:** {row['Walk_Distance_m']:.0f}m (~{row.get('Walk_Duration_min', 0):.0f} min)")
+                        st.markdown(f"**🚶 Walking Distance to Nearest MRT:** {row['Walk_Distance_m']:.0f}m (~{row.get('Walk_Duration_min', 0):.0f} min)")
                 
                 # All room types available
                 st.markdown("**Available Room Types:**")
