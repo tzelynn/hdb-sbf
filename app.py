@@ -227,7 +227,7 @@ with col4:
 st.divider()
 
 # Create tabs
-tab1, tab2, tab3 = st.tabs(["📊 Overview", "🗺️ Map View (WIP)", "📋 Full List"])
+tab1, tab2, tab3 = st.tabs(["📊 Overview", "🗺️ Map View", "📋 Full List"])
 
 with tab1:
     col1, col2 = st.columns(2)
@@ -482,32 +482,33 @@ with tab3:
                             st.markdown("**Floor Distribution:**")
                             floor_table = pd.DataFrame(floors)
                             floor_table.columns = ['Floor', 'Units']
-                            # st.dataframe(
-                            #     floor_table,
-                            #     use_container_width=True,
-                            #     hide_index=True
-                            # )        
-                            fig_floor = go.Figure(data=[
-                                go.Bar(
-                                    x=floor_table['Floor'],
-                                    y=floor_table['Units'],
-                                    marker_color='#1f77b4',
-                                    text=floor_table['Units'],
-                                    textposition='auto',
-                                )
-                            ])
-                            fig_floor.update_layout(
-                                xaxis_title="Floor",
-                                yaxis_title="Number of Units",
-                                # height=350,
-                                showlegend=False,
-                                xaxis=dict(
-                                    tickmode='array', # Set tick mode to 'array' to use custom values/text
-                                    tickvals=floor_table['Floor'], # Specify which values should have ticks
-                                    # ticktext=custom_labels # Specify the labels for those ticks
-                                )
-                            )
-                            st.plotly_chart(fig_floor, use_container_width=True)
+                            print('floor_table', floor_table)
+                            st.dataframe(
+                                floor_table,
+                                use_container_width=True,
+                                hide_index=True
+                            )        
+                            # fig_floor = go.Figure(data=[
+                            #     go.Bar(
+                            #         x=floor_table['Floor'],
+                            #         y=floor_table['Units'],
+                            #         marker_color='#1f77b4',
+                            #         text=floor_table['Units'],
+                            #         textposition='auto',
+                            #     )
+                            # ])
+                            # fig_floor.update_layout(
+                            #     xaxis_title="Floor",
+                            #     yaxis_title="Number of Units",
+                            #     # height=350,
+                            #     showlegend=False,
+                            #     xaxis=dict(
+                            #         tickmode='array', # Set tick mode to 'array' to use custom values/text
+                            #         tickvals=floor_table['Floor'], # Specify which values should have ticks
+                            #         # ticktext=custom_labels # Specify the labels for those ticks
+                            #     )
+                            # )
+                            # st.plotly_chart(fig_floor, use_container_width=True)
                 else:
                     st.info(f"No floor/price data available for {selected_room_type} units with {selected_ethnicity} quota.")
             
