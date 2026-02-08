@@ -7,7 +7,7 @@ from pathlib import Path
 
 # Page configuration
 st.set_page_config(
-    page_title="HDB Properties Browser",
+    page_title="HDB SBF Feb 2026",
     page_icon="🏢",
     layout="wide"
 )
@@ -134,8 +134,8 @@ projects_data = load_project_data()
 floor_price_data = load_floor_price_data()
 
 # Header
-st.markdown('<div class="main-header">🏢 HDB Properties Browser</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">Browse available HDB flats across estates</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">🏢 HDB SBF Feb 2026</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">Filter by estate, room type and ethnicity on the left panel. Do let us know if there are any bugs or inaccurate info, thanks!</div>', unsafe_allow_html=True)
 
 # Sidebar Filters
 st.sidebar.header("🔍 Filters")
