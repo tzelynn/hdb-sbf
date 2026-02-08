@@ -67,7 +67,7 @@ def get_total_units_from_floor_data(floor_str):
     return sum(f['count'] for f in floors)
 
 @st.cache_data
-def load_estate_data(base_path='./by_estate'):
+def load_estate_data(base_path='./data/by_estate_mrt'):
     """Load all estate CSV files from by_estate folder"""
     estates = {}
     estate_path = Path(base_path)
@@ -91,7 +91,7 @@ def load_estate_data(base_path='./by_estate'):
     return estates
 
 @st.cache_data
-def load_project_data(base_path='./by_project'):
+def load_project_data(base_path='./data/by_project'):
     """Load all project CSV files from by_project folder"""
     projects = {}
     project_path = Path(base_path)
@@ -109,7 +109,7 @@ def load_project_data(base_path='./by_project'):
     return projects
 
 @st.cache_data
-def load_floor_price_data(base_path='./by_project'):
+def load_floor_price_data(base_path='./data/by_project'):
     """Load floor_price_consolidated.csv files from project folders"""
     floor_price_data = {}
     project_path = Path(base_path)
@@ -278,7 +278,6 @@ with tab1:
                     return str(completion)
         
         estate_df_filtered['Completion_Year'] = estate_df_filtered['Probable Completion'].apply(categorize_completion)
-        print('estate_df_filtered[completion_year]', estate_df_filtered['Completion_Year'])
         completion_units = estate_df_filtered.groupby('Completion_Year')['Filtered_Units'].sum().sort_index()
         
         # Sort so 'Available Now' comes first if it exists
@@ -286,8 +285,6 @@ with tab1:
             available_now = completion_units['Available Now']
             completion_units = completion_units.drop('Available Now')
             completion_units = pd.concat([pd.Series({'Available Now': available_now}), completion_units])
-        print('completion_units', completion_units)
-        print('x, y', completion_units.index, completion_units.values)
         fig_completion = go.Figure(data=[
             go.Bar(
                 x=completion_units.index,
@@ -418,7 +415,7 @@ with tab3:
     # Display each project as an expandable card
     for idx, row in display_df.iterrows():
         # Calculate percentage of total units
-        unit_percentage = (row['Filtered_Units'] / total_units_in_estate * 100) if total_units_in_estate > 0 else 0
+        unit_percentage = (row['Filtered_Units'] / total_filtered_units * 100)
         
         with st.expander(f"**{row['Project Name']}** - {int(row['Filtered_Units'])} units ({unit_percentage:.1f}% of total)", expanded=False):
             col1, col2 = st.columns([2, 1])
@@ -428,6 +425,16 @@ with tab3:
                 st.markdown(f"**📍 Town:** {row['Town']}")
                 st.markdown(f"**⏰ Remaining Lease:** {row['Remaining Lease']}")
                 st.markdown(f"**📅 Probable Completion:** {row['Probable Completion']}")
+                
+                # MRT and walking information
+                if 'Nearest_MRT' in row and pd.notna(row['Nearest_MRT']):
+                    st.markdown(f"**🚇 Nearest MRT:** {row['Nearest_MRT']} ({row.get('MRT_Station_Code', 'N/A')})")
+                    if 'bus_duration_min' in row and pd.notna(row['bus_duration_min']):
+                        st.markdown(f"**⏱️ Bus Duration:** {row['bus_duration_min']:.0f} min")
+                    # if 'MRT_Distance_m' in row and pd.notna(row['MRT_Distance_m']):
+                    #     st.markdown(f"**📏 MRT Distance:** {row['MRT_Distance_m']:.0f}m")
+                    if 'Walk_Distance_m' in row and pd.notna(row['Walk_Distance_m']):
+                        st.markdown(f"**🚶 Walking Distance:** {row['Walk_Distance_m']:.0f}m (~{row.get('Walk_Duration_min', 0):.0f} min)")
                 
                 # All room types available
                 st.markdown("**Available Room Types:**")
@@ -462,9 +469,12 @@ with tab3:
                 
                 if not filtered_floor_price.empty:
                     for _, fp_row in filtered_floor_price.iterrows():
+                        price_range = fp_row['price_range']
+                        if isinstance(fp_row['price_range'], float):
+                            price_range = "N/A"
                         st.markdown(f"**Blocks:** {fp_row['blocks']}")
                         st.markdown(f"**Total Units:** {fp_row['total_units']}")
-                        st.markdown(f"**Price Range:** {fp_row['price_range'].replace('$', '\$')}")
+                        st.markdown(f"**Price Range:** {price_range.replace('$', '\$')}")
                         
                         # Parse and display floor summary
                         floors = parse_floor_data(fp_row['floor_summary'])

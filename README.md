@@ -3,3 +3,6 @@
 A comprehensive Streamlit application for browsing and analyzing HDB SBF properties.
 
 Built by Claude.
+
+https://give-me-sbf-pls.streamlit.app/
+
