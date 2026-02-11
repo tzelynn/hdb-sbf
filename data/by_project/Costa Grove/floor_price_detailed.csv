@@ -1,24 +1,24 @@
 flat_type,block,ethnicity,floor_data,price_range,project
-2-room Flexi,Blk 589B,Chinese,#04:1; #07:1; #09:1; #11:1; #15:1; #16:1,"$74,100 - $302,800",Important notes
-2-room Flexi,Blk 589B,Indian/ Other Races,#04:1; #07:1; #09:1; #11:1; #15:1; #16:1,"$74,100 - $302,800",Important notes
-2-room Flexi,Blk 589B,Malay,#04:1; #07:1; #09:1; #11:1; #15:1; #16:1,"$74,100 - $302,800",Important notes
+2-room Flexi,Blk 589B,Chinese,#04:2; #07:2; #09:2; #11:1; #15:1; #16:1,"$74,100 - $302,800",Important notes
+2-room Flexi,Blk 589B,Indian/ Other Races,#04:2; #07:2; #09:2; #11:1; #15:1; #16:1,"$74,100 - $302,800",Important notes
+2-room Flexi,Blk 589B,Malay,#04:2; #07:2; #09:2; #11:1; #15:1; #16:1,"$74,100 - $302,800",Important notes
 3-room,Blk 588C,Chinese,#12:1; #14:1,"$459,800 - $477,900",Important notes
 3-room,Blk 589B,Chinese,#08:1; #10:1,"$459,800 - $477,900",Important notes
-3-room,Blk 590C,Chinese,#05:1; #09:1,"$459,800 - $477,900",Important notes
+3-room,Blk 590C,Chinese,#05:1; #09:2,"$459,800 - $477,900",Important notes
 3-room,Blk 588C,Indian/ Other Races,#12:1; #14:1,"$459,800 - $477,900",Important notes
 3-room,Blk 589B,Indian/ Other Races,#08:1; #10:1,"$459,800 - $477,900",Important notes
-3-room,Blk 590C,Indian/ Other Races,#05:1; #09:1,"$459,800 - $477,900",Important notes
+3-room,Blk 590C,Indian/ Other Races,#05:1; #09:2,"$459,800 - $477,900",Important notes
 3-room,Blk 588C,Malay,#12:1; #14:1,"$459,800 - $477,900",Important notes
 3-room,Blk 589B,Malay,#08:1; #10:1,"$459,800 - $477,900",Important notes
-3-room,Blk 590C,Malay,#05:1; #09:1,"$459,800 - $477,900",Important notes
+3-room,Blk 590C,Malay,#05:1; #09:2,"$459,800 - $477,900",Important notes
 4-room,Blk 588C,Chinese,#07:1; #10:1,"$585,300 - $621,500",Important notes
-4-room,Blk 589A,Chinese,#04:1,"$585,300 - $621,500",Important notes
+4-room,Blk 589A,Chinese,#04:2,"$585,300 - $621,500",Important notes
 4-room,Blk 589C,Chinese,#13:1,"$585,300 - $621,500",Important notes
 4-room,Blk 588C,Indian/ Other Races,#07:1; #10:1,"$585,300 - $621,500",Important notes
-4-room,Blk 589A,Indian/ Other Races,#04:1,"$585,300 - $621,500",Important notes
+4-room,Blk 589A,Indian/ Other Races,#04:2,"$585,300 - $621,500",Important notes
 4-room,Blk 589C,Indian/ Other Races,#13:1,"$585,300 - $621,500",Important notes
 4-room,Blk 588C,Malay,#07:1; #10:1,"$585,300 - $621,500",Important notes
-4-room,Blk 589A,Malay,#04:1,"$585,300 - $621,500",Important notes
+4-room,Blk 589A,Malay,#04:2,"$585,300 - $621,500",Important notes
 4-room,Blk 589C,Malay,#13:1,"$585,300 - $621,500",Important notes
 5-room,Blk 587A,Chinese,#10:1,"$741,600 - $784,800",Important notes
 5-room,Blk 588A,Chinese,#06:1; #14:1; #15:1,"$741,600 - $784,800",Important notes

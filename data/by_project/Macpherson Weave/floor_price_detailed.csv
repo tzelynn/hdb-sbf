@@ -1,19 +1,19 @@
 flat_type,block,ethnicity,floor_data,price_range,project
-3-room,Blk 95A,Chinese,#12:1,"$641,200 - $649,600",Important notes
-3-room,Blk 95B,Chinese,#15:1; #16:1,"$641,200 - $649,600",Important notes
-3-room,Blk 95A,Indian/ Other Races,#12:1,"$641,200 - $649,600",Important notes
-3-room,Blk 95B,Indian/ Other Races,#15:1; #16:1,"$641,200 - $649,600",Important notes
-3-room,Blk 95A,Malay,#12:1,"$641,200 - $649,600",Important notes
-3-room,Blk 95B,Malay,#15:1; #16:1,"$641,200 - $649,600",Important notes
+3-room,Blk 95A,Chinese,#12:2,"$641,200 - $649,600",Important notes
+3-room,Blk 95B,Chinese,#15:3; #16:1,"$641,200 - $649,600",Important notes
+3-room,Blk 95A,Indian/ Other Races,#12:2,"$641,200 - $649,600",Important notes
+3-room,Blk 95B,Indian/ Other Races,#15:3; #16:1,"$641,200 - $649,600",Important notes
+3-room,Blk 95A,Malay,#12:2,"$641,200 - $649,600",Important notes
+3-room,Blk 95B,Malay,#15:3; #16:1,"$641,200 - $649,600",Important notes
 4-room,Blk 95A,Chinese,#04:1; #07:1,"$814,300 - $895,100",Important notes
 4-room,Blk 95C,Chinese,#11:1; #12:1,"$814,300 - $895,100",Important notes
-4-room,Blk 97A,Chinese,#02:1; #04:1; #09:1; #10:1; #19:1,"$814,300 - $895,100",Important notes
+4-room,Blk 97A,Chinese,#02:1; #04:1; #09:1; #10:2; #19:1,"$814,300 - $895,100",Important notes
 4-room,Blk 97B,Chinese,#10:1; #18:1,"$814,300 - $895,100",Important notes
 4-room,Blk 95A,Indian/ Other Races,#04:1; #07:1,"$814,300 - $895,100",Important notes
 4-room,Blk 95C,Indian/ Other Races,#11:1; #12:1,"$814,300 - $895,100",Important notes
-4-room,Blk 97A,Indian/ Other Races,#02:1; #04:1; #09:1; #10:1; #19:1,"$814,300 - $895,100",Important notes
+4-room,Blk 97A,Indian/ Other Races,#02:1; #04:1; #09:1; #10:2; #19:1,"$814,300 - $895,100",Important notes
 4-room,Blk 97B,Indian/ Other Races,#10:1; #18:1,"$814,300 - $895,100",Important notes
 4-room,Blk 95A,Malay,#04:1; #07:1,"$814,300 - $895,100",Important notes
 4-room,Blk 95C,Malay,#11:1; #12:1,"$814,300 - $895,100",Important notes
-4-room,Blk 97A,Malay,#02:1; #04:1; #09:1; #10:1; #19:1,"$814,300 - $895,100",Important notes
+4-room,Blk 97A,Malay,#02:1; #04:1; #09:1; #10:2; #19:1,"$814,300 - $895,100",Important notes
 4-room,Blk 97B,Malay,#10:1; #18:1,"$814,300 - $895,100",Important notes

@@ -1,63 +1,63 @@
 flat_type,block,ethnicity,floor_data,price_range,project
-2-room Flexi,Blk 516A,Chinese,#02:1; #03:1; #05:1; #06:1; #07:1,"$42,300 - $190,500",Important notes
-2-room Flexi,Blk 517A,Chinese,#02:1; #03:1; #04:1; #06:1; #07:1,"$42,300 - $190,500",Important notes
+2-room Flexi,Blk 516A,Chinese,#02:1; #03:1; #05:1; #06:1; #07:2,"$42,300 - $190,500",Important notes
+2-room Flexi,Blk 517A,Chinese,#02:1; #03:1; #04:1; #06:1; #07:2,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 517B,Chinese,#04:1; #07:1; #08:1; #09:1,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 518A,Chinese,#05:1; #10:1; #13:1,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 519B,Chinese,#03:1; #04:1; #07:1; #09:1; #10:1; #12:1; #14:1,"$42,300 - $190,500",Important notes
-2-room Flexi,Blk 516A,Indian/ Other Races,#02:1; #03:1; #05:1; #06:1; #07:1,"$42,300 - $190,500",Important notes
-2-room Flexi,Blk 517A,Indian/ Other Races,#02:1; #03:1; #04:1; #06:1; #07:1,"$42,300 - $190,500",Important notes
+2-room Flexi,Blk 516A,Indian/ Other Races,#02:1; #03:1; #05:1; #06:1; #07:2,"$42,300 - $190,500",Important notes
+2-room Flexi,Blk 517A,Indian/ Other Races,#02:1; #03:1; #04:1; #06:1; #07:2,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 517B,Indian/ Other Races,#04:1; #07:1; #08:1; #09:1,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 518A,Indian/ Other Races,#05:1; #10:1; #13:1,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 519B,Indian/ Other Races,#03:1; #04:1; #07:1; #09:1; #10:1; #12:1; #14:1,"$42,300 - $190,500",Important notes
-2-room Flexi,Blk 516A,Malay,#02:1; #03:1; #05:1; #06:1; #07:1,"$42,300 - $190,500",Important notes
-2-room Flexi,Blk 517A,Malay,#02:1; #03:1; #04:1; #06:1; #07:1,"$42,300 - $190,500",Important notes
+2-room Flexi,Blk 516A,Malay,#02:1; #03:1; #05:1; #06:1; #07:2,"$42,300 - $190,500",Important notes
+2-room Flexi,Blk 517A,Malay,#02:1; #03:1; #04:1; #06:1; #07:2,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 517B,Malay,#04:1; #07:1; #08:1; #09:1,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 518A,Malay,#05:1; #10:1; #13:1,"$42,300 - $190,500",Important notes
 2-room Flexi,Blk 519B,Malay,#03:1; #04:1; #07:1; #09:1; #10:1; #12:1; #14:1,"$42,300 - $190,500",Important notes
 4-room,Blk 516A,Chinese,#02:1,"$326,900 - $376,500",Important notes
-4-room,Blk 516B,Chinese,#04:1; #05:1; #06:1; #07:1; #10:1,"$326,900 - $376,500",Important notes
+4-room,Blk 516B,Chinese,#04:1; #05:2; #06:2; #07:1; #10:1,"$326,900 - $376,500",Important notes
 4-room,Blk 516C,Chinese,#06:1; #10:1; #13:1,"$326,900 - $376,500",Important notes
 4-room,Blk 517A,Chinese,#08:1; #12:1,"$326,900 - $376,500",Important notes
 4-room,Blk 517B,Chinese,#03:1; #06:1,"$326,900 - $376,500",Important notes
-4-room,Blk 517C,Chinese,#05:1; #06:1; #07:1; #08:1; #09:1; #10:1; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
+4-room,Blk 517C,Chinese,#05:1; #06:1; #07:2; #08:1; #09:1; #10:1; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
 4-room,Blk 518A,Chinese,#09:1; #11:1; #12:1,"$326,900 - $376,500",Important notes
-4-room,Blk 519A,Chinese,#03:1; #04:1; #05:1; #07:1; #09:1; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
+4-room,Blk 519A,Chinese,#03:2; #04:1; #05:1; #07:1; #09:2; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
 4-room,Blk 519B,Chinese,#08:1,"$326,900 - $376,500",Important notes
 4-room,Blk 516A,Indian/ Other Races,#02:1,"$326,900 - $376,500",Important notes
-4-room,Blk 516B,Indian/ Other Races,#04:1; #05:1; #06:1; #07:1; #10:1,"$326,900 - $376,500",Important notes
+4-room,Blk 516B,Indian/ Other Races,#04:1; #05:2; #06:2; #07:1; #10:1,"$326,900 - $376,500",Important notes
 4-room,Blk 516C,Indian/ Other Races,#06:1; #10:1; #13:1,"$326,900 - $376,500",Important notes
 4-room,Blk 517A,Indian/ Other Races,#08:1; #12:1,"$326,900 - $376,500",Important notes
 4-room,Blk 517B,Indian/ Other Races,#03:1; #06:1,"$326,900 - $376,500",Important notes
-4-room,Blk 517C,Indian/ Other Races,#05:1; #06:1; #07:1; #08:1; #09:1; #10:1; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
+4-room,Blk 517C,Indian/ Other Races,#05:1; #06:1; #07:2; #08:1; #09:1; #10:1; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
 4-room,Blk 518A,Indian/ Other Races,#09:1; #11:1; #12:1,"$326,900 - $376,500",Important notes
-4-room,Blk 519A,Indian/ Other Races,#03:1; #04:1; #05:1; #07:1; #09:1; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
+4-room,Blk 519A,Indian/ Other Races,#03:2; #04:1; #05:1; #07:1; #09:2; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
 4-room,Blk 519B,Indian/ Other Races,#08:1,"$326,900 - $376,500",Important notes
 4-room,Blk 516A,Malay,#02:1,"$326,900 - $376,500",Important notes
-4-room,Blk 516B,Malay,#04:1; #05:1; #06:1; #07:1; #10:1,"$326,900 - $376,500",Important notes
+4-room,Blk 516B,Malay,#04:1; #05:2; #06:2; #07:1; #10:1,"$326,900 - $376,500",Important notes
 4-room,Blk 516C,Malay,#06:1; #10:1; #13:1,"$326,900 - $376,500",Important notes
 4-room,Blk 517A,Malay,#08:1; #12:1,"$326,900 - $376,500",Important notes
 4-room,Blk 517B,Malay,#03:1; #06:1,"$326,900 - $376,500",Important notes
-4-room,Blk 517C,Malay,#05:1; #06:1; #07:1; #08:1; #09:1; #10:1; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
+4-room,Blk 517C,Malay,#05:1; #06:1; #07:2; #08:1; #09:1; #10:1; #11:1; #12:1; #13:1,"$326,900 - $376,500",Important notes
 4-room,Blk 518A,Malay,#09:1; #11:1; #12:1,"$326,900 - $376,500",Important notes
 4-room,Blk 519B,Malay,#08:1,"$326,900 - $376,500",Important notes
 5-room,Blk 516B,Chinese,#03:1; #09:1; #12:1; #13:1,"$471,900 - $525,700",Important notes
-5-room,Blk 516C,Chinese,#05:1; #08:1; #11:1,"$471,900 - $525,700",Important notes
+5-room,Blk 516C,Chinese,#05:1; #08:2; #11:1,"$471,900 - $525,700",Important notes
 5-room,Blk 517A,Chinese,#10:1; #11:1; #12:1,"$471,900 - $525,700",Important notes
 5-room,Blk 517C,Chinese,#03:1; #04:1; #08:1; #10:1,"$471,900 - $525,700",Important notes
 5-room,Blk 518A,Chinese,#03:1; #11:1,"$471,900 - $525,700",Important notes
-5-room,Blk 519A,Chinese,#07:1; #08:1; #10:1; #11:1,"$471,900 - $525,700",Important notes
+5-room,Blk 519A,Chinese,#07:1; #08:2; #10:1; #11:1,"$471,900 - $525,700",Important notes
 5-room,Blk 519B,Chinese,#08:1; #12:1,"$471,900 - $525,700",Important notes
 5-room,Blk 516B,Indian/ Other Races,#03:1; #09:1; #12:1; #13:1,"$471,900 - $525,700",Important notes
-5-room,Blk 516C,Indian/ Other Races,#05:1; #08:1; #11:1,"$471,900 - $525,700",Important notes
+5-room,Blk 516C,Indian/ Other Races,#05:1; #08:2; #11:1,"$471,900 - $525,700",Important notes
 5-room,Blk 517A,Indian/ Other Races,#10:1; #11:1; #12:1,"$471,900 - $525,700",Important notes
 5-room,Blk 517C,Indian/ Other Races,#03:1; #04:1; #08:1; #10:1,"$471,900 - $525,700",Important notes
 5-room,Blk 518A,Indian/ Other Races,#03:1; #11:1,"$471,900 - $525,700",Important notes
-5-room,Blk 519A,Indian/ Other Races,#07:1; #08:1; #10:1; #11:1,"$471,900 - $525,700",Important notes
+5-room,Blk 519A,Indian/ Other Races,#07:1; #08:2; #10:1; #11:1,"$471,900 - $525,700",Important notes
 5-room,Blk 519B,Indian/ Other Races,#08:1; #12:1,"$471,900 - $525,700",Important notes
 5-room,Blk 516B,Malay,#03:1; #09:1; #12:1; #13:1,"$471,900 - $525,700",Important notes
-5-room,Blk 516C,Malay,#05:1; #08:1; #11:1,"$471,900 - $525,700",Important notes
+5-room,Blk 516C,Malay,#05:1; #08:2; #11:1,"$471,900 - $525,700",Important notes
 5-room,Blk 517A,Malay,#10:1; #11:1; #12:1,"$471,900 - $525,700",Important notes
 5-room,Blk 517C,Malay,#03:1; #04:1; #08:1; #10:1,"$471,900 - $525,700",Important notes
 5-room,Blk 518A,Malay,#03:1; #11:1,"$471,900 - $525,700",Important notes
-5-room,Blk 519A,Malay,#07:1; #08:1; #10:1; #11:1,"$471,900 - $525,700",Important notes
+5-room,Blk 519A,Malay,#07:1; #08:2; #10:1; #11:1,"$471,900 - $525,700",Important notes
 5-room,Blk 519B,Malay,#08:1; #12:1,"$471,900 - $525,700",Important notes

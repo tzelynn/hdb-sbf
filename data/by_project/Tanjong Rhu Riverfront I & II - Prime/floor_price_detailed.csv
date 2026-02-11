@@ -1,12 +1,12 @@
 flat_type,block,ethnicity,floor_data,price_range,project
-2-room Flexi,Blk 24A,Chinese,#02:1; #03:1; #04:1; #05:1; #06:1; #07:1; #08:1; #10:1; #13:1; #14:1; #15:1; #16:1; #17:1; #19:1; #20:1,"$81,800 - $387,500",Important notes
-2-room Flexi,Blk 24B,Chinese,#02:1; #03:1; #04:1; #05:1; #06:1; #07:1; #08:1; #16:1; #27:1,"$81,800 - $387,500",Important notes
+2-room Flexi,Blk 24A,Chinese,#02:1; #03:1; #04:2; #05:1; #06:1; #07:1; #08:1; #10:1; #13:1; #14:1; #15:1; #16:1; #17:1; #19:1; #20:1,"$81,800 - $387,500",Important notes
+2-room Flexi,Blk 24B,Chinese,#02:3; #03:3; #04:3; #05:3; #06:3; #07:2; #08:2; #16:1; #27:1,"$81,800 - $387,500",Important notes
 2-room Flexi,Blk 25A,Chinese,#02:1; #03:1; #04:1; #05:1; #17:1,"$81,800 - $387,500",Important notes
-2-room Flexi,Blk 24A,Indian/ Other Races,#02:1; #03:1; #04:1; #05:1; #06:1; #07:1; #08:1; #10:1; #13:1; #14:1; #15:1; #16:1; #17:1; #19:1; #20:1,"$81,800 - $387,500",Important notes
-2-room Flexi,Blk 24B,Indian/ Other Races,#02:1; #03:1; #04:1; #05:1; #06:1; #07:1; #08:1; #16:1; #27:1,"$81,800 - $387,500",Important notes
+2-room Flexi,Blk 24A,Indian/ Other Races,#02:1; #03:1; #04:2; #05:1; #06:1; #07:1; #08:1; #10:1; #13:1; #14:1; #15:1; #16:1; #17:1; #19:1; #20:1,"$81,800 - $387,500",Important notes
+2-room Flexi,Blk 24B,Indian/ Other Races,#02:3; #03:3; #04:3; #05:3; #06:3; #07:2; #08:2; #16:1; #27:1,"$81,800 - $387,500",Important notes
 2-room Flexi,Blk 25A,Indian/ Other Races,#02:1; #03:1; #04:1; #05:1; #17:1,"$81,800 - $387,500",Important notes
-2-room Flexi,Blk 24A,Malay,#02:1; #03:1; #04:1; #05:1; #06:1; #07:1; #08:1; #10:1; #13:1; #14:1; #15:1; #16:1; #17:1; #19:1; #20:1,"$81,800 - $387,500",Important notes
-2-room Flexi,Blk 24B,Malay,#02:1; #03:1; #04:1; #05:1; #06:1; #07:1; #08:1; #16:1; #27:1,"$81,800 - $387,500",Important notes
+2-room Flexi,Blk 24A,Malay,#02:1; #03:1; #04:2; #05:1; #06:1; #07:1; #08:1; #10:1; #13:1; #14:1; #15:1; #16:1; #17:1; #19:1; #20:1,"$81,800 - $387,500",Important notes
+2-room Flexi,Blk 24B,Malay,#02:3; #03:3; #04:3; #05:3; #06:3; #07:2; #08:2; #16:1; #27:1,"$81,800 - $387,500",Important notes
 2-room Flexi,Blk 25A,Malay,#02:1; #03:1; #04:1; #05:1; #17:1,"$81,800 - $387,500",Important notes
 3-room,Blk 24A,Chinese,#02:1; #03:1; #04:1,"$451,100 - $545,600",Important notes
 3-room,Blk 25A,Chinese,#02:1; #03:1; #04:1; #08:1; #10:1; #16:1,"$451,100 - $545,600",Important notes
@@ -14,15 +14,15 @@ flat_type,block,ethnicity,floor_data,price_range,project
 3-room,Blk 25A,Indian/ Other Races,#02:1; #03:1; #04:1; #08:1; #10:1; #16:1,"$451,100 - $545,600",Important notes
 3-room,Blk 24A,Malay,#02:1; #03:1; #04:1,"$451,100 - $545,600",Important notes
 3-room,Blk 25A,Malay,#02:1; #03:1; #04:1; #08:1; #10:1; #16:1,"$451,100 - $545,600",Important notes
-4-room,Blk 24A,Chinese,#02:1; #08:1; #12:1; #24:1,"$676,800 - $830,400",Important notes
-4-room,Blk 24B,Chinese,#02:1; #22:1; #24:1,"$676,800 - $830,400",Important notes
+4-room,Blk 24A,Chinese,#02:4; #08:1; #12:2; #24:1,"$676,800 - $830,400",Important notes
+4-room,Blk 24B,Chinese,#02:4; #22:1; #24:1,"$676,800 - $830,400",Important notes
 4-room,Blk 24C,Chinese,#02:1; #07:1,"$676,800 - $830,400",Important notes
-4-room,Blk 25A,Chinese,#02:1; #11:1; #13:1; #14:1; #15:1; #21:1,"$676,800 - $830,400",Important notes
-4-room,Blk 24A,Indian/ Other Races,#02:1; #08:1; #12:1; #24:1,"$676,800 - $830,400",Important notes
-4-room,Blk 24B,Indian/ Other Races,#02:1; #22:1; #24:1,"$676,800 - $830,400",Important notes
+4-room,Blk 25A,Chinese,#02:3; #11:1; #13:1; #14:2; #15:1; #21:1,"$676,800 - $830,400",Important notes
+4-room,Blk 24A,Indian/ Other Races,#02:4; #08:1; #12:2; #24:1,"$676,800 - $830,400",Important notes
+4-room,Blk 24B,Indian/ Other Races,#02:4; #22:1; #24:1,"$676,800 - $830,400",Important notes
 4-room,Blk 24C,Indian/ Other Races,#02:1; #07:1,"$676,800 - $830,400",Important notes
-4-room,Blk 25A,Indian/ Other Races,#02:1; #11:1; #13:1; #14:1; #15:1; #21:1,"$676,800 - $830,400",Important notes
-4-room,Blk 24A,Malay,#02:1; #08:1; #12:1; #24:1,"$676,800 - $830,400",Important notes
-4-room,Blk 24B,Malay,#02:1; #22:1; #24:1,"$676,800 - $830,400",Important notes
+4-room,Blk 25A,Indian/ Other Races,#02:3; #11:1; #13:1; #14:2; #15:1; #21:1,"$676,800 - $830,400",Important notes
+4-room,Blk 24A,Malay,#02:4; #08:1; #12:2; #24:1,"$676,800 - $830,400",Important notes
+4-room,Blk 24B,Malay,#02:4; #22:1; #24:1,"$676,800 - $830,400",Important notes
 4-room,Blk 24C,Malay,#02:1; #07:1,"$676,800 - $830,400",Important notes
-4-room,Blk 25A,Malay,#02:1; #11:1; #13:1; #14:1; #15:1; #21:1,"$676,800 - $830,400",Important notes
+4-room,Blk 25A,Malay,#02:3; #11:1; #13:1; #14:2; #15:1; #21:1,"$676,800 - $830,400",Important notes
